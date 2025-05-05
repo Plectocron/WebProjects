@@ -66,7 +66,7 @@ function checkAnswer() {
         allowPresses = false;
         resetData();
         playAudio("./sounds/wrong.mp3");
-        $("h1").text("You fucked up, Aedan. Press a key to try again");
+        $("h1").text("It ain't that hard, Aedan. Press a key to try again");
     }
 }
 
