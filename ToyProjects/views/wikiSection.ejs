@@ -1,0 +1,10 @@
+<div id="wikiContent" class="center" data-section="<%=section%>">
+    <% if (locals.contentExists) {%>
+        <p id="textContent"><%=content%></p>
+    <%} else {%>
+        <p id="textContent">Sample text</p>
+    <%}%>
+    <button id="editButton">Edit</button>
+    <button id="resetButton">Reset</button>
+</div>
+<script src="javascript/wikiSection.js"></script>

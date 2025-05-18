@@ -1,0 +1,31 @@
+body {
+    background-color: #4d2d2b;
+    color: #140d0c;
+}
+
+#header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    color: #140d0c;
+}
+
+hr {
+    display: block;
+}
+
+#header > a:hover {
+    text-decoration: none;
+    color: inherit;
+    background: none;
+}
+
+#textContent {
+    color: white;
+}
